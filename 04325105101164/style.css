@@ -1,4 +1,4 @@
-/* General Page Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Header */
+
 header {
     background-color: #006699;
     color: white;
@@ -15,7 +15,7 @@ header {
     text-align: center;
 }
 
-/* Slideshow Container */
+
 .slideshow {
     overflow: hidden;
     max-width: 100%;
@@ -25,25 +25,25 @@ header {
     border-bottom: 5px solid #006699;
 }
 
-/* Track for Slides */
+
 .slide-track {
     display: flex;
     animation: scroll 12s linear infinite;
 }
 
-/* Each Slide */
+
 .slide {
     flex: 0 0 100%;
 }
 
-/* Slide Images */
+
 .slide img {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Prevents distortion, fills container */
 }
 
-/* Slide Animation */
+
 @keyframes scroll {
     0% { transform: translateX(0); }
     25% { transform: translateX(-100%); }
@@ -52,7 +52,7 @@ header {
     100% { transform: translateX(0); }
 }
 
-/* Section Styles */
+
 section {
     padding: 20px;
     margin: 10px;
@@ -60,12 +60,12 @@ section {
     border-radius: 8px;
 }
 
-/* Headings */
+
 h2 {
     color: #006699;
 }
 
-/* Famous Places List */
+
 .places-list li {
     margin: 10px 0;
     transition: 0.3s;
@@ -77,10 +77,11 @@ h2 {
     transform: scale(1.05);
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
     color: white;
 }
+
